@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/00062337b5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./asset/css/style.css ">
+  <title>Racontrz</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <section class="conteiner">
+    <nav class="navbar navbar-expand-lg bg-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand text-color" href="#">Racontrz</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link text-color" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-color" href="#">Proyectos</a>
+            <a class="nav-link text-color" href="#">contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section >
+    <div class="bg-image d-flex justify-content-center align-items-center" style="background-image: url('./asset/img/background\ negro.jpg'); height: 50vh;">
+      <div>
+        <h1 class="text-color">Hola!!
+
+        </h1>
+      </div>
+    </div>
+  </section>
+ <!--  <section class="container-lg">
+    <div>
+      <h2 class="text-center my-5">
+        Sobre mi
+      </h2>
+    </div>
+    <div>
+      <p class="text-center mb-5">
+        Soy Ricardo Antorio Contreras Zepeda, estudiante en bootcamp de Programacion Full Stack JavaScript en Desafio Latam.
+      </p>
+    </div>
+  </section> -->
+  <section class="my-5">
+    <div>
+      <h2 class="text-center text-color">Proyectos</h2>
+    </div>
+  </section>
+  <section class="container-xl my-5">
+    <div class="row">
+      <div class="col-xxl-4 col-lg-6 col-md-12 my-3">
+        <div class="card" style="width: 25rem;">
+          <img src="./asset/img/land-page2.jpg" class="card-img-top img-fluid" alt="land-page">
+          <div class="card-body">
+            <h5 class="card-title text-center">Land Page</h5>
+            <a href="https://github.com/Racontrz/land-page" target="_blank" class="btn btn-secondary mx-5">Ver Código</a>
+            <a href="https://racontrz.github.io/land-page/" target="_blank" class="btn btn-secondary">Ver Página</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-4 col-lg-6 col-md-12 my-3">
+        <div class="card" style="width: 25rem;">
+          <img src="./asset/img/iguana-page2.jpg" class="card-img-top img-fluid" alt="Iguana-page">
+          <div class="card-body">
+            <h5 class="card-title text-center">Iguana</h5>
+            <a href="https://github.com/Racontrz/iguana-page" target="_blank" class="btn btn-secondary mx-5">Ver Código</a>
+            <a href="https://racontrz.github.io/iguana-page/" target="_blank" class="btn btn-secondary">Ver Página</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-4 col-lg-6 col-md-12 my-3">
+        <div class="card" style="width: 25rem;">
+          <img src="./asset/img/cuppon2.jpg" class="card-img-top img-fluid" alt="cuppon">
+          <div class="card-body">
+            <h5 class="card-title text-center">Cuppon</h5>
+            <a href="https://github.com/Racontrz/cuppon" target="_blank" class="btn btn-secondary mx-5">Ver Código</a>
+            <a href="https://racontrz.github.io/cuppon/" target="_blank" class="btn btn-secondary">Ver Página</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container bg-navbar my-5">
+    <div>
+      <h2 class="text-center text-color">Contacto</h2>
+    </div>
+    <div>
+      <form>
+        <!-- Name input -->
+        <div class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label text-color" for="form4Example1">Nombre</label>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label text-color" for="form4Example2">Email</label>
+        </div>
+      
+        <!-- Message input -->
+        <div class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label text-color" for="form4Example3">Mensaje</label>
+        </div>
+      
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+          <label class="form-check-label text-color" for="form4Example4">
+            Envíame una copia de este mensaje
+          </label>
+        </div>
+      
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-secondary btn-block mb-4 ">Send</button>
+      </form>
+    </div>
+  </section>
+  <section>
+    <footer class="bg-navbar">
+      <h3 class="text-center text-color">
+        @Racontrz
+      </H3>
+    </footer>
+  </section>
+</body>
+</html>
